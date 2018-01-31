@@ -1,0 +1,19 @@
+Auto-Cropper v0.1
+=================
+
+You will need Racket to run and/or compile this program. You can download it at
+http://www.racket-lang.org
+
+This program allows you to quickly crop multiple images in multiple ways. To
+use it, select your input folder and output folder, then click "Begin". Left-
+click and drag to unmask areas; right-click and drag to mask them. Click "Add
+Mask" to add another mask to the same image, and use the left-hand list to
+select an existing mask. When you're done, click "Next" to automatically save
+the masked images and move on to the next image. Masked images are saved in
+the format
+
+    [XXXX]-[YY].png
+
+where XXXX is the index of the image, and YY is the index of the mask.
+
+Made by: Paul Harrison
